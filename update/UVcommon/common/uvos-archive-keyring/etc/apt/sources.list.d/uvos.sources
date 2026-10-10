@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://ultravioleta-os.github.io/UVOS/
+Suites: stable
+Components: main apps
+Signed-By: /usr/share/keyrings/uvos-archive-keyring.gpg

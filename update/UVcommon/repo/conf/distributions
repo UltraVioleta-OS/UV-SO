@@ -1,0 +1,15 @@
+Origin: UVOS
+Label: UVOS
+Codename: stable
+Architectures: amd64 arm64 armhf
+Components: main apps
+Description: UVOS - canal estable
+SignWith: TU_KEYID
+
+Origin: UVOS
+Label: UVOS Testing
+Codename: testing
+Architectures: amd64 arm64 armhf
+Components: main apps
+Description: UVOS - canal de pruebas
+SignWith: TU_KEYID

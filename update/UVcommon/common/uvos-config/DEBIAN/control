@@ -1,0 +1,8 @@
+Package: uvos-config
+Version: 1.0.0
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Tu Nombre <tu@correo.com>
+Depends: uvos-archive-keyring
+Description: Configuracion base de UVOS

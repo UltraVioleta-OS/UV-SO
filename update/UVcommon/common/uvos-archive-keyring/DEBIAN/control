@@ -1,0 +1,7 @@
+Package: uvos-archive-keyring
+Version: 1.0.0
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Tu Nombre <tu@correo.com>
+Description: Clave y fuente APT del repositorio comun de UVOS

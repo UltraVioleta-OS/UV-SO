@@ -1,0 +1,36 @@
+name: Promover testing a stable
+on:
+  workflow_dispatch:
+    inputs:
+      paquetes:
+        description: "Paquetes separados por espacio (vacio = todos)"
+        required: false
+
+concurrency: apt-repo
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      C: update/UVcommon
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar herramientas
+        run: sudo apt-get update && sudo apt-get install -y reprepro gnupg
+
+      - name: Importar clave de firma
+        run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+
+      - name: Descargar rama gh-pages
+        run: bash $C/scripts/pages-fetch.sh "$RUNNER_TEMP/pages"
+
+      - name: Promover
+        run: bash $C/scripts/promote.sh "$RUNNER_TEMP/pages" ${{ github.event.inputs.paquetes }}
+
+      - name: Subir a gh-pages
+        run: bash $C/scripts/pages-push.sh "$RUNNER_TEMP/pages" "promover a stable"
