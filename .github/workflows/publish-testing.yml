@@ -26,6 +26,8 @@ jobs:
 
       - name: Importar clave de firma
         run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+      - name: Verificar clave importada
+        run: gpg --list-secret-keys --keyid-format long
 
       - name: Construir .deb
         run: bash $C/scripts/build-debs.sh
