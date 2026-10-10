@@ -1,0 +1,11 @@
+# clave pública generada al construir
+update/UVcommon/common/uvos-archive-keyring/usr/share/keyrings/*.gpg
+out/
+*.deb
+
+# protección contra accidentes con claves privadas
+*.asc
+*.key
+*.pem
+.gnupg/
+*private*

@@ -1,0 +1,43 @@
+name: Publicar en testing
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'update/UVcommon/**'
+  workflow_dispatch:
+
+concurrency: apt-repo
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GPG_KEYID: ${{ secrets.GPG_KEYID }}
+      C: update/UVcommon
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar herramientas
+        run: sudo apt-get update && sudo apt-get install -y reprepro gnupg
+
+      - name: Importar clave de firma
+        run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+
+      - name: Construir .deb
+        run: bash $C/scripts/build-debs.sh
+
+      - name: Descargar rama gh-pages
+        run: bash $C/scripts/pages-fetch.sh "$RUNNER_TEMP/pages"
+
+      - name: Publicar en testing
+        run: bash $C/scripts/publish-testing.sh "$RUNNER_TEMP/pages"
+
+      - name: Copiar clave publica para instalacion manual
+        run: gpg --export "$GPG_KEYID" > "$RUNNER_TEMP/pages/uvos-archive-keyring.gpg"
+
+      - name: Subir a gh-pages
+        run: bash $C/scripts/pages-push.sh "$RUNNER_TEMP/pages" "testing ${{ github.sha }}"
