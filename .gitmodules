@@ -16,3 +16,6 @@
 [submodule "update/UVc-Update"]
 	path = update/UVc-Update
 	url = https://github.com/UltraVioleta-OS/UVc-Update.git
+[submodule "update/UVa-update"]
+	path = update/UVa-update
+	url = https://github.com/UltraVioleta-OS/UVa-update.git
