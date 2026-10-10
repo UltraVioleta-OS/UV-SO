@@ -4,7 +4,7 @@ Codename: stable
 Architectures: amd64 arm64 armhf
 Components: main apps
 Description: UVOS - canal estable
-SignWith: TU_KEYID
+SignWith: 22798162C453FE22
 
 Origin: UVOS
 Label: UVOS Testing
@@ -12,4 +12,4 @@ Codename: testing
 Architectures: amd64 arm64 armhf
 Components: main apps
 Description: UVOS - canal de pruebas
-SignWith: TU_KEYID
+SignWith: 22798162C453FE22
