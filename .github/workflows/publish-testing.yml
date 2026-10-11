@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'update/UVcommon/**'
+      - 'UVcommon/UVcommon-Update/**'
   workflow_dispatch:
 
 concurrency: apt-repo
@@ -18,7 +18,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GPG_KEYID: ${{ secrets.GPG_KEYID }}
       GPG_PUBLIC_KEY: ${{ secrets.GPG_PUBLIC_KEY }}
-      C: update/UVcommon
+      C: UVcommon/UVcommon-Update
     steps:
       - uses: actions/checkout@v4
 
