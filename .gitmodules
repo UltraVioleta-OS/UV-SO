@@ -1,27 +1,3 @@
-[submodule "ISO/UVa-ISO"]
-	path = ISO/UVa-ISO
-	url = https://github.com/UltraVioleta-OS/UVa-ISO.git
-[submodule "ISO/UVb-ISO"]
-	path = ISO/UVb-ISO
-	url = https://github.com/UltraVioleta-OS/UVb-ISO.git
-[submodule "ISO/UVc-ISO"]
-	path = ISO/UVc-ISO
-	url = https://github.com/UltraVioleta-OS/UVc-ISO.git
-[submodule "Update/UVa-Update"]
-	path = Update/UVa-Update
-	url = https://github.com/UltraVioleta-OS/UVa-Update.git
-[submodule "Update/UVb-Update"]
-	path = Update/UVb-Update
-	url = https://github.com/UltraVioleta-OS/UVb-Update.git
-[submodule "Update/UVc-Update"]
-	path = Update/UVc-Update
-	url = https://github.com/UltraVioleta-OS/UVc-Update.git
-[submodule "Update/UVa-update"]
-	path = Update/UVa-update
+[submodule "UVa/UVa-Update"]
+	path = UVa/UVa-Update
 	url = https://github.com/UltraVioleta-OS/UVa-update.git
-[submodule "Update/UVb-update"]
-	path = Update/UVb-update
-	url = https://github.com/UltraVioleta-OS/UVb-update.git
-[submodule "Update/UVc-update"]
-	path = Update/UVc-update
-	url = https://github.com/UltraVioleta-OS/UVc-update.git
