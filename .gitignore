@@ -1,12 +1,21 @@
-# clave pública generada al construir
-UVcommon/UVcommon-Update
-UVcommon/UVcommon-Update/common/uvos-archive-keyring/usr/share/keyrings/*.gpg
+# Salida de builds de paquetes
 out/
 *.deb
 
-# protección contra accidentes con claves privadas
+# Clave pública generada al construir (la crea build-debs.sh)
+UVcommon/UVcommon-Update/common/uvos-archive-keyring/usr/share/keyrings/*.gpg
+
+# Protección contra subir claves privadas por accidente
 *.asc
 *.key
 *.pem
 .gnupg/
 *private*
+*secret*
+
+# Basura del sistema y editores
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.vscode/
