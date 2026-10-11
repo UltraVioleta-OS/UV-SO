@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GPG_KEYID: ${{ secrets.GPG_KEYID }}
       C: update/UVcommon
     steps:
       - uses: actions/checkout@v4
@@ -24,10 +25,21 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y reprepro gnupg
 
       - name: Importar clave de firma
-        run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        run: |
+          [ -n "$GPG_PRIVATE_KEY" ] || { echo "ERROR: GPG_PRIVATE_KEY llega vacio"; exit 1; }
+          printf '%s\n' "$GPG_PRIVATE_KEY" | gpg --batch --import 2>&1
+          gpg --list-secret-keys --keyid-format long
 
       - name: Descargar rama gh-pages
         run: bash $C/scripts/pages-fetch.sh "$RUNNER_TEMP/pages"
+
+      - name: Fijar clave de firma en la configuracion
+        run: |
+          [ -n "$GPG_KEYID" ] || { echo "ERROR: GPG_KEYID llega vacio"; exit 1; }
+          echo "Longitud de GPG_KEYID: ${#GPG_KEYID}"
+          sed -i "s/^SignWith:.*/SignWith: $GPG_KEYID/" $C/repo/conf/distributions
 
       - name: Promover
         run: bash $C/scripts/promote.sh "$RUNNER_TEMP/pages" ${{ github.event.inputs.paquetes }}
