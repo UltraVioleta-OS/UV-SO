@@ -28,6 +28,14 @@ jobs:
         run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
       - name: Verificar clave importada
         run: gpg --list-secret-keys --keyid-format long
+      - name: Importar clave de firma
+        run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+      - name: Verificar clave importada
+        run: |
+          [ -n "$GPG_KEYID" ] || { echo "ERROR: el secret GPG_KEYID llega vacio (revisa Repository access)"; exit 1; }
+          [ -n "${{ secrets.GPG_PRIVATE_KEY }}" ] || { echo "ERROR: el secret GPG_PRIVATE_KEY llega vacio (revisa Repository access)"; exit 1; }
+          gpg --list-secret-keys --keyid-format long
+          echo "SignWith actual:"; grep SignWith update/UVcommon/repo/conf/distributions
 
       - name: Construir .deb
         run: bash $C/scripts/build-debs.sh
