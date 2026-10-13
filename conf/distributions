@@ -1,0 +1,15 @@
+Origin: UVSO
+Label: UVSO
+Codename: stable
+Architectures: amd64 arm64 armhf
+Components: main apps
+Description: UVSO - canal estable
+SignWith: F77C25DEFEA7F20F24690D9C8DE6797661F93894
+
+Origin: UVSO
+Label: UVSO Testing
+Codename: testing
+Architectures: amd64 arm64 armhf
+Components: main apps
+Description: UVSO - canal de pruebas
+SignWith: F77C25DEFEA7F20F24690D9C8DE6797661F93894

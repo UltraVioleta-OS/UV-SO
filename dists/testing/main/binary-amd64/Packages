@@ -1,0 +1,56 @@
+Package: uvso-archive-keyring
+Version: 0.0.4~alpha
+Architecture: all
+Maintainer: davinsonm <davinsonminsuaste@outlook.com>
+Priority: optional
+Section: misc
+Filename: pool/main/u/uvso-archive-keyring/uvso-archive-keyring_0.0.4~alpha_all.deb
+Size: 1738
+SHA256: e15b95bc7a39a81dc9e38e5e5e1adb99ab680934559f7b065ec1dff3d48c4a87
+SHA1: e313c245f0ec872b31a7a3ca9d5f78c9dac5813b
+MD5sum: ac92816925f929304c24c0950b6e0d8b
+Description: Clave y fuente APT del repositorio comun de UVSO
+
+Package: uvso-config
+Version: 0.0.4~alpha
+Architecture: all
+Maintainer: Tu Nombre <tu@correo.com>
+Depends: uvso-archive-keyring
+Priority: optional
+Section: misc
+Filename: pool/main/u/uvso-config/uvso-config_0.0.4~alpha_all.deb
+Size: 598
+SHA256: 6627078ae0d3c386966e0596520709838b093ca22dcd8444d1aa11face05a0b6
+SHA1: 32b336dbd328f7097d8801482f7ea70ee6fb2a8c
+MD5sum: d0cf4101fbbde5d5945c3227f169d57d
+Description: Configuracion base de UVSO
+
+Package: uvso-uva-base
+Version: 0.0.4~alpha
+Architecture: all
+Maintainer: Davinsonm <davinsonminsuaste@outlook.com>
+Depends: uvso-archive-keyring, uvso-config
+Priority: optional
+Section: metapackages
+Filename: pool/main/u/uvso-uva-base/uvso-uva-base_0.0.4~alpha_all.deb
+Size: 596
+SHA256: 619d4ea7fb051be621bf5d41c995f307b2fb46d5e2a8553243fd360f73235bae
+SHA1: 6ce8bbfd3ab81af4ec2b4b474866a4e18370abc5
+MD5sum: 4e8ce1f6eabcb2555392a592d4f06f9c
+Description: Metapaquete de UVSO UVa (x86_64)
+ Agrega en Depends los paquetes de tu package-list de live-build.
+
+Package: uvso-uva-repo
+Version: 0.0.4~alpha
+Architecture: all
+Maintainer: Tu Nombre <tu@correo.com>
+Depends: uvso-archive-keyring
+Priority: optional
+Section: misc
+Filename: pool/main/u/uvso-uva-repo/uvso-uva-repo_0.0.4~alpha_all.deb
+Size: 734
+SHA256: c410975e03ef806eaec09b4979d8d59a10640bda03835965cb6a3e89d065ed85
+SHA1: 505dd561b05ce7e845750171e91e4d0fb8948e82
+MD5sum: 7fe15df097276469ddd14e65608b61d6
+Description: Activa el repositorio APT de UVSO UVa (UVa-Update)
+

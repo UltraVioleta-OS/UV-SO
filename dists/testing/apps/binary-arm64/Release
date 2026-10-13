@@ -1,0 +1,5 @@
+Component: apps
+Origin: UVSO
+Label: UVSO Testing
+Architecture: arm64
+Description: UVSO - canal de pruebas

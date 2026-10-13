@@ -1,0 +1,5 @@
+Component: main
+Origin: UVSO
+Label: UVSO Testing
+Architecture: armhf
+Description: UVSO - canal de pruebas
