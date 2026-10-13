@@ -1,0 +1,7 @@
+Package: uvso-archive-keyring
+Version: 0.0.4~alpha
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: davinsonm <davinsonminsuaste@outlook.com>
+Description: Clave y fuente APT del repositorio comun de UVSO

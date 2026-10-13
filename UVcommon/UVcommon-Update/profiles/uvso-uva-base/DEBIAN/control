@@ -1,18 +1,9 @@
 Package: uvso-uva-base
-Version: 1.0.0
+Version: 0.0.4~alpha
 Section: metapackages
 Priority: optional
 Architecture: all
-Maintainer: Tu Nombre <tu@correo.com>
-Depends: uvos-archive-keyring, uvos-config
-Description: Metapaquete de UVOS UVa (x86_64)
- Agrega en Depends los paquetes de tu package-list de live-build.
-Package: uvos-uva-base
-Version: 1.0.0
-Section: metapackages
-Priority: optional
-Architecture: all
-Maintainer: Tu Nombre <tu@correo.com>
-Depends: uvos-archive-keyring, uvos-config
-Description: Metapaquete de UVOS UVa (x86_64)
+Maintainer: Davinsonm <davinsonminsuaste@outlook.com>
+Depends: uvso-archive-keyring, uvso-config
+Description: Metapaquete de UVSO UVa (x86_64)
  Agrega en Depends los paquetes de tu package-list de live-build.

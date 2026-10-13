@@ -6,7 +6,7 @@ cd "$ROOT"
 export SOURCE_DATE_EPOCH=1700000000   # builds reproducibles
 rm -rf out && mkdir -p out/main out/apps
 
-KEYFILE=common/uvos-archive-keyring/usr/share/keyrings/uvos-archive-keyring.gpg
+KEYFILE=common/uvso-archive-keyring/usr/share/keyrings/uvso-archive-keyring.gpg
 if [ -n "${GPG_PUBLIC_KEY:-}" ]; then
   printf '%s\n' "$GPG_PUBLIC_KEY" | gpg --dearmor > "$KEYFILE"
 elif [ -n "${GPG_KEYID:-}" ]; then

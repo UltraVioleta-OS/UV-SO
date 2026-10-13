@@ -3,7 +3,7 @@ out/
 *.deb
 
 # Clave pública generada al construir (la crea build-debs.sh)
-UVcommon/UVcommon-Update/common/uvos-archive-keyring/usr/share/keyrings/*.gpg
+UVcommon/UVcommon-Update/common/uvso-archive-keyring/usr/share/keyrings/*.gpg
 
 # Protección contra subir claves privadas por accidente
 *.asc

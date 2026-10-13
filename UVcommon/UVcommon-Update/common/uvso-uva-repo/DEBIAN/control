@@ -1,0 +1,8 @@
+Package: uvso-uva-repo
+Version: 0.0.4~alpha
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Tu Nombre <tu@correo.com>
+Depends: uvso-archive-keyring
+Description: Activa el repositorio APT de UVSO UVa (UVa-Update)
