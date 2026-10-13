@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+case "$1" in
+  configure)
+    # Comenta las lineas "deb cdrom:..." (las deja el instalador y rompen apt update)
+    for f in /etc/apt/sources.list /etc/apt/sources.list.d/*.list; do
+      [ -f "$f" ] || continue
+      sed -i -E 's/^((deb|deb-src)[[:space:]]+(\[[^]]*\][[:space:]]+)?cdrom:)/# [uvso] \1/' "$f"
+    done
+    ;;
+esac
+exit 0

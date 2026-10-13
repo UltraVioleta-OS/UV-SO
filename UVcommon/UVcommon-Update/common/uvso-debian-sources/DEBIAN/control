@@ -1,0 +1,10 @@
+Package: uvso-debian-sources
+Version: 0.0.4~alpha1
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Tu Nombre <tu@correo.com>
+Depends: debian-archive-keyring
+Description: Repositorios de Debian 13 (trixie) para UVSO
+ Configura trixie, trixie-updates y trixie-security, y desactiva
+ las entradas de disco (cdrom:) que rompen "apt update".

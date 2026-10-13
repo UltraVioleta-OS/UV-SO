@@ -1,5 +1,5 @@
 Package: uvso-archive-keyring
-Version: 0.0.4~alpha
+Version: 0.0.4~alpha1
 Section: misc
 Priority: optional
 Architecture: all

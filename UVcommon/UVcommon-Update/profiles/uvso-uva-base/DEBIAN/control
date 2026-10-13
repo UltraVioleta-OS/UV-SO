@@ -1,5 +1,5 @@
 Package: uvso-uva-base
-Version: 0.0.4~alpha
+Version: 0.0.4~alpha1
 Section: metapackages
 Priority: optional
 Architecture: all
