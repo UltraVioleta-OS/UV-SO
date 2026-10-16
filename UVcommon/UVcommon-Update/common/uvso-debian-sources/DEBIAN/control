@@ -1,5 +1,5 @@
 Package: uvso-debian-sources
-Version: 0.0.4~alpha1
+Version: 0.0.5~alpha2
 Section: misc
 Priority: optional
 Architecture: all
