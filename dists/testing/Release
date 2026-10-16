@@ -1,19 +1,19 @@
 Origin: UVSO
 Label: UVSO Testing
 Codename: testing
-Date: Tue, 13 Oct 2026 05:29:40 UTC
+Date: Fri, 16 Oct 2026 04:23:43 UTC
 Architectures: amd64 arm64 armhf
 Components: main apps
 Description: UVSO - canal de pruebas
 MD5Sum:
- e6f71f9805e9230742a855b6673f8549 2590 main/binary-amd64/Packages
- 37e4656638d7ff2e736d28ee48679c02 1058 main/binary-amd64/Packages.gz
+ 115426878c9b798fa065937edb123da6 2590 main/binary-amd64/Packages
+ c75f0827fd77a98e6befe8c4f447577b 1071 main/binary-amd64/Packages.gz
  1ad420d07c58285744a55d9fef70df1a 106 main/binary-amd64/Release
- e6f71f9805e9230742a855b6673f8549 2590 main/binary-arm64/Packages
- 37e4656638d7ff2e736d28ee48679c02 1058 main/binary-arm64/Packages.gz
+ 115426878c9b798fa065937edb123da6 2590 main/binary-arm64/Packages
+ c75f0827fd77a98e6befe8c4f447577b 1071 main/binary-arm64/Packages.gz
  d581c26fc3ac4dc8185cf379fb671f9e 106 main/binary-arm64/Release
- e6f71f9805e9230742a855b6673f8549 2590 main/binary-armhf/Packages
- 37e4656638d7ff2e736d28ee48679c02 1058 main/binary-armhf/Packages.gz
+ 115426878c9b798fa065937edb123da6 2590 main/binary-armhf/Packages
+ c75f0827fd77a98e6befe8c4f447577b 1071 main/binary-armhf/Packages.gz
  33bd95d237b97703c34380a0d842dc75 106 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 apps/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 apps/binary-amd64/Packages.gz
@@ -25,14 +25,14 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 apps/binary-armhf/Packages.gz
  a4a926ebb0d8689f484419a2852b221c 106 apps/binary-armhf/Release
 SHA1:
- af471311427057f3355195cb3dce430c6332508d 2590 main/binary-amd64/Packages
- 607092a881b6cac60ef205baf8b0b14f359c4f39 1058 main/binary-amd64/Packages.gz
+ f27bf13a1fa60d214f4073aad1921e99f105d82d 2590 main/binary-amd64/Packages
+ f78d1289ab7008b638a67be168cf65b9787fd129 1071 main/binary-amd64/Packages.gz
  c5ef5b3b6b00b1b37966939ec9437546eff8172d 106 main/binary-amd64/Release
- af471311427057f3355195cb3dce430c6332508d 2590 main/binary-arm64/Packages
- 607092a881b6cac60ef205baf8b0b14f359c4f39 1058 main/binary-arm64/Packages.gz
+ f27bf13a1fa60d214f4073aad1921e99f105d82d 2590 main/binary-arm64/Packages
+ f78d1289ab7008b638a67be168cf65b9787fd129 1071 main/binary-arm64/Packages.gz
  1f20e63497bf048c936bb1d6a928071aea1a4a5b 106 main/binary-arm64/Release
- af471311427057f3355195cb3dce430c6332508d 2590 main/binary-armhf/Packages
- 607092a881b6cac60ef205baf8b0b14f359c4f39 1058 main/binary-armhf/Packages.gz
+ f27bf13a1fa60d214f4073aad1921e99f105d82d 2590 main/binary-armhf/Packages
+ f78d1289ab7008b638a67be168cf65b9787fd129 1071 main/binary-armhf/Packages.gz
  5a1e0d367737a3e2c6f3aeb4707d46886ab47b88 106 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 apps/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 apps/binary-amd64/Packages.gz
@@ -44,14 +44,14 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 apps/binary-armhf/Packages.gz
  896f0b01a70a88eda6fb312b824574ec9b9af0c1 106 apps/binary-armhf/Release
 SHA256:
- 860f5911d5285c973d03085315efa3149aabde290efb217678ed85ac6602cee3 2590 main/binary-amd64/Packages
- f28fd10363503529730e31699f065f8eafabb0e5decb2af9a73c14d4f2d89656 1058 main/binary-amd64/Packages.gz
+ c0dae348b1b5db0c9a8a795ca17be9fc5add5991bc490ab70f9c58d93b30181e 2590 main/binary-amd64/Packages
+ 2df47cae5caf8cc3ec24eb1e9b267928c2c8db2c641abcbc15faadc961fab7e1 1071 main/binary-amd64/Packages.gz
  e544a858b35e1c479b1537cc17852aea25dd97077e2c1d82e25a885af4e37308 106 main/binary-amd64/Release
- 860f5911d5285c973d03085315efa3149aabde290efb217678ed85ac6602cee3 2590 main/binary-arm64/Packages
- f28fd10363503529730e31699f065f8eafabb0e5decb2af9a73c14d4f2d89656 1058 main/binary-arm64/Packages.gz
+ c0dae348b1b5db0c9a8a795ca17be9fc5add5991bc490ab70f9c58d93b30181e 2590 main/binary-arm64/Packages
+ 2df47cae5caf8cc3ec24eb1e9b267928c2c8db2c641abcbc15faadc961fab7e1 1071 main/binary-arm64/Packages.gz
  15e112c0068209d413eb5ec74a1bab075915bf5b75a943f078be7e00612994f7 106 main/binary-arm64/Release
- 860f5911d5285c973d03085315efa3149aabde290efb217678ed85ac6602cee3 2590 main/binary-armhf/Packages
- f28fd10363503529730e31699f065f8eafabb0e5decb2af9a73c14d4f2d89656 1058 main/binary-armhf/Packages.gz
+ c0dae348b1b5db0c9a8a795ca17be9fc5add5991bc490ab70f9c58d93b30181e 2590 main/binary-armhf/Packages
+ 2df47cae5caf8cc3ec24eb1e9b267928c2c8db2c641abcbc15faadc961fab7e1 1071 main/binary-armhf/Packages.gz
  4745fa9d8f57a41b2f06e37191caf5540df155605762b1b244f1bd283f14ac34 106 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 apps/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 apps/binary-amd64/Packages.gz
