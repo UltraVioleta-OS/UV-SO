@@ -1,0 +1,64 @@
+Origin: UVSO
+Label: UVSO
+Codename: stable
+Date: Sat, 17 Oct 2026 07:04:37 UTC
+Architectures: amd64 arm64 armhf
+Components: main apps
+Description: UVSO - canal estable
+MD5Sum:
+ 89dee62f569bf932b9df1338aa431bc6 2590 main/binary-amd64/Packages
+ f4a3a9e9ef8c21b6f51a8342d643ba4c 1066 main/binary-amd64/Packages.gz
+ 08bb7fdfdb7be7fe9b52131bbc3992f3 95 main/binary-amd64/Release
+ 89dee62f569bf932b9df1338aa431bc6 2590 main/binary-arm64/Packages
+ f4a3a9e9ef8c21b6f51a8342d643ba4c 1066 main/binary-arm64/Packages.gz
+ c315378d9be07243ee293b9440b0126e 95 main/binary-arm64/Release
+ 89dee62f569bf932b9df1338aa431bc6 2590 main/binary-armhf/Packages
+ f4a3a9e9ef8c21b6f51a8342d643ba4c 1066 main/binary-armhf/Packages.gz
+ a049c9590eb73c8a29400324cd8c1531 95 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 apps/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 apps/binary-amd64/Packages.gz
+ c5c4c0fe652e3a951d5b800405a3f94c 95 apps/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 apps/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 apps/binary-arm64/Packages.gz
+ 87c91e29b5651c096369d28e3dbef5cf 95 apps/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 apps/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 apps/binary-armhf/Packages.gz
+ 5a95fa2f31c87513c18046e55276871b 95 apps/binary-armhf/Release
+SHA1:
+ 4f954fe7f36fca620da2fe8a0208f1dead791d96 2590 main/binary-amd64/Packages
+ fd7c93bd450820fe8ca67ebdab9526d38bbdf027 1066 main/binary-amd64/Packages.gz
+ 7eeb0058fdf802a26510e357f2dac7b0ca2ac962 95 main/binary-amd64/Release
+ 4f954fe7f36fca620da2fe8a0208f1dead791d96 2590 main/binary-arm64/Packages
+ fd7c93bd450820fe8ca67ebdab9526d38bbdf027 1066 main/binary-arm64/Packages.gz
+ 7571ae70b925757d7a0df99365f709832b5079e8 95 main/binary-arm64/Release
+ 4f954fe7f36fca620da2fe8a0208f1dead791d96 2590 main/binary-armhf/Packages
+ fd7c93bd450820fe8ca67ebdab9526d38bbdf027 1066 main/binary-armhf/Packages.gz
+ 2120374290af0cebb484b1a49f66a51781b87ef5 95 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 apps/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 apps/binary-amd64/Packages.gz
+ 5df39b49a4e293359f376a0ee62b3d22c6b15f92 95 apps/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 apps/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 apps/binary-arm64/Packages.gz
+ 06688ddd26238f97eba859040163b8ebe4112b63 95 apps/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 apps/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 apps/binary-armhf/Packages.gz
+ bffab8df7e0c396d975f40c63448c4c5b48b38c2 95 apps/binary-armhf/Release
+SHA256:
+ 95064c867c38535d70f0382a25555c03b952ebcd95d8dc1045052366e5fa33bb 2590 main/binary-amd64/Packages
+ 6c9a9d4e1d520ae5baea64fa9a471599b2b3bc44939fe849303bdacb6b4ffdca 1066 main/binary-amd64/Packages.gz
+ 3655c1470a75054a3f7f97a9eb1e8f4609f5b4ddbb06dca15b5d716baed9672b 95 main/binary-amd64/Release
+ 95064c867c38535d70f0382a25555c03b952ebcd95d8dc1045052366e5fa33bb 2590 main/binary-arm64/Packages
+ 6c9a9d4e1d520ae5baea64fa9a471599b2b3bc44939fe849303bdacb6b4ffdca 1066 main/binary-arm64/Packages.gz
+ 1a485b3c71b1e3e993da61466a4a8c6c1b104c6650e748ffdd9bf213daefc914 95 main/binary-arm64/Release
+ 95064c867c38535d70f0382a25555c03b952ebcd95d8dc1045052366e5fa33bb 2590 main/binary-armhf/Packages
+ 6c9a9d4e1d520ae5baea64fa9a471599b2b3bc44939fe849303bdacb6b4ffdca 1066 main/binary-armhf/Packages.gz
+ f62c6e7b80dcd7b85cedfbaf094db7dc4507c2be0d6e56396a25fe972809c8f7 95 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 apps/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 apps/binary-amd64/Packages.gz
+ 6b74add4aedd1272466b01e6a925de9ee54a16278fa63abc72e953098d057aa8 95 apps/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 apps/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 apps/binary-arm64/Packages.gz
+ 541a8cebdb3d2215a37fda450499b798bfe9c3729f1f07c7f14df02f8f2c6ad9 95 apps/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 apps/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 apps/binary-armhf/Packages.gz
+ 2a82f50c98aeb5df200745b274a4b48cfebb763b5ccf349ff100177e5aaa8f8a 95 apps/binary-armhf/Release
