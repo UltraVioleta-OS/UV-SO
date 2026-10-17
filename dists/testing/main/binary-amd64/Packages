@@ -1,42 +1,42 @@
 Package: uvso-archive-keyring
-Version: 0.0.5~alpha2
+Version: 0.0.6~alpha1
 Architecture: all
 Maintainer: davinsonm <davinsonminsuaste@outlook.com>
 Priority: optional
 Section: misc
-Filename: pool/main/u/uvso-archive-keyring/uvso-archive-keyring_0.0.5~alpha2_all.deb
+Filename: pool/main/u/uvso-archive-keyring/uvso-archive-keyring_0.0.6~alpha1_all.deb
 Size: 1738
-SHA256: 48bb1fd1ecd4086059b43ff14c9cbf25a9973f32ce42019830d49c017ffe53b4
-SHA1: 1273135fd4f5bbdf1bfb255c16721fec389921b4
-MD5sum: 0f2ce939037699011eb19d9f403c6801
+SHA256: e15bcef43e046f328570f402f75d87951574c0159d804399cd28a3edd5335491
+SHA1: dff28c97ae26df192fd59fb10a4c11ce7b20b718
+MD5sum: 79084a150833b7de5874e5ba08179ac2
 Description: Clave y fuente APT del repositorio comun de UVSO
 
 Package: uvso-config
-Version: 0.0.5~alpha2
+Version: 0.0.6~alpha1
 Architecture: all
 Maintainer: Davinsonm <davinsonminsuaste@outlook.com>
 Depends: uvso-archive-keyring, uvso-debian-sources
 Priority: optional
 Section: misc
-Filename: pool/main/u/uvso-config/uvso-config_0.0.5~alpha2_all.deb
+Filename: pool/main/u/uvso-config/uvso-config_0.0.6~alpha1_all.deb
 Size: 616
-SHA256: a69520dbb96f42ac1e1849ca6010288dbd467d70863f542ac654e39fb9db110b
-SHA1: 10e9f7b241728b73ea9e64c3abe1640e747f0a26
-MD5sum: 8227ef500f0268586e15957ac274775e
+SHA256: a8b1c0c5f67f97e578514d04bced580902327efaf5719c106f326cd5154ec145
+SHA1: 0952cc1cbdbc6db586859a78a870a5e956554f62
+MD5sum: 612be5dda7a14bcab0ec2c49e541c83f
 Description: Configuracion base de UVSO
 
 Package: uvso-debian-sources
-Version: 0.0.5~alpha2
+Version: 0.0.6~alpha1
 Architecture: all
 Maintainer: Tu Nombre <tu@correo.com>
 Depends: debian-archive-keyring
 Priority: optional
 Section: misc
-Filename: pool/main/u/uvso-debian-sources/uvso-debian-sources_0.0.5~alpha2_all.deb
+Filename: pool/main/u/uvso-debian-sources/uvso-debian-sources_0.0.6~alpha1_all.deb
 Size: 1066
-SHA256: 46d613c79db0bb21dcd926413d3dcb93534608451b6fe718369ba56c6f29e070
-SHA1: ff79f4f9cd2ec1e293154662db91ad23fd9489c4
-MD5sum: 6b4848d493872dad60b3a80fbf1bc0f4
+SHA256: 4334f0c3253f5805a6c3fd75bca4fa7bfc9b671b5a52bd3054898cf49fa3500a
+SHA1: 688d1e36d862b6ada0b5a1d07d1ebabdb42a74cf
+MD5sum: 7cae01324837a1ef013a9a367cd70d53
 Description: Repositorios de Debian 13 (trixie) para UVSO
  Configura trixie, trixie-updates y trixie-security, y desactiva
  las entradas de disco (cdrom:) que rompen "apt update".
@@ -57,16 +57,16 @@ Description: Metapaquete de UVSO UVa (x86_64)
  Agrega en Depends los paquetes de tu package-list de live-build.
 
 Package: uvso-uva-repo
-Version: 0.0.5~alpha2
+Version: 0.0.6~alpha1
 Architecture: all
 Maintainer: Tu Nombre <tu@correo.com>
 Depends: uvso-archive-keyring
 Priority: optional
 Section: misc
-Filename: pool/main/u/uvso-uva-repo/uvso-uva-repo_0.0.5~alpha2_all.deb
+Filename: pool/main/u/uvso-uva-repo/uvso-uva-repo_0.0.6~alpha1_all.deb
 Size: 734
-SHA256: f9e9fc707332b2dc972ec078f4560264a41528acebb002febe91b968c267c299
-SHA1: 6aaa098991bba9e538b5ee5b74b494df4053ea29
-MD5sum: 23637765f901d10bc9b6cb96dcb79846
+SHA256: b0b0eb0286d36506416769bcb346f36161271b3c1a3fa2afc34f5d46170b3373
+SHA1: 235594a41efebf87b7dc9597a4f665ae0ff128c1
+MD5sum: 0f99522c53c59a419778db044d042030
 Description: Activa el repositorio APT de UVSO UVa (UVa-Update)
 
