@@ -95,7 +95,7 @@ done
 
 echo; echo "Listo: ${#SEL[@]} paquete(s) a $DEB  (version visible: $HUMAN)"
 echo; echo "Repos con cambios (haz commit y push en cada uno):"
-for f in "${TOCADOS[@]}"; do git -C "$(dirname "$f")" rev-parse --show-toplevel 2>/dev/null; done | sort -u | sed 's/^/  - /'
+for f in "${TOCADOS[@]}"; do git -C "$(dirname "$f")" rev-parse --show-toplevel 2>/dev/null || true; done | sort -u | sed 's/^/  - /'
 cat <<MSG
 
 Siguientes pasos:
